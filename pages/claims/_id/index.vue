@@ -925,7 +925,7 @@ export default {
       console.log("called");
 
       await axios
-        .post("https://upload-stage.savibenefits.com/api/test", {
+        .post("https://upload-stage.carebidsexchange.com/api/test", {
           id: this.$route.params.id,
         })
         .then((response) => {

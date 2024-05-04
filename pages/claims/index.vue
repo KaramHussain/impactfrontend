@@ -634,7 +634,7 @@ export default {
         console.log("called fetch by id on button click");
         await axios
           .post(
-            "https://upload-stage.savibenefits.com/api/patient_information",
+            "https://upload-stage.carebidsexchange.com/api/patient_information",
             {
               id: fileId,
             }

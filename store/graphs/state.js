@@ -18,8 +18,8 @@ export default () => ({
   baseURL: 'http://169.61.216.28:4001/',
   // url : 'http://169.61.216.28:4001/get_graph',
   // url: 'https://apis.carepays.com/public/api/get_graph',
-  url: 'https://apis-stage.carepays.com/api/get_graph',
-  // url: 'https://apis.savibenefits.com/api/get_graph',
+  // url: 'https://apis-stage.carepays.com/api/get_graph',
+  url: 'https://graph.carebidsexchange.com/get_graph',
   // url: 'http://192.168.1.5:8000/api/get_graph',
 
   graphDates: {

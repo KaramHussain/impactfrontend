@@ -12,8 +12,8 @@ export const state = () => ({
     end_date : null
   },
   notifications : [],
-  ediUrl: 'https://apis-stage.savibenefits.com/api'
-  // ediUrl: 'https://apis.savibenefits.com/api'
+  ediUrl: 'https://backend.carebidsexchange.com/api'
+  // ediUrl: 'https://apis.carebidsexchange.com/api'
   // ediUrl: 'http://192.168.1.5:8000/api'
 
 })
@@ -117,7 +117,7 @@ export const actions =  {
   //muskaan start
   async fetchUploadedFiles({ commit }) {
     try {
-      const response = await this.$axios.get('https://upload-stage.savibenefits.com/api/impact_data');
+      const response = await this.$axios.get('https://upload-stage.carebidsexchange.com/api/impact_data');
       console.log(response.data, "response of get")
       commit('setUploadedFiles', response.data)
     } catch (error) {

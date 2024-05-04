@@ -130,7 +130,7 @@ export default {
   axios: {
     // baseURL: 'https://apis.carepays.com/public/api/'
     baseURL: 'https://backend.carebidsexchange.com/api/'
-    // baseURL: 'https://apis.savibenefits.com/api/'
+    // baseURL: 'https://apis.carebidsexchange.com/api/'
     // baseURL: 'http://192.168.1.5:8000/api/'
   },
 
