@@ -111,7 +111,7 @@ export default {
             formData.append("file", this.selectedFile);
             await axios
               .post(
-                "https://upload-stage.carebidsexchange.com/api/eob_load",
+                "https://upload-stage.carebidsexchange.com/eob_load",
                 formData
               )
               .then((response) => {
